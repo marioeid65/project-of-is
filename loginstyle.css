@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap'); 
+body{
+    border-radius: 50px;
+background-image: url(10.png);
+background-size: cover;
+box-shadow: 0 5px 25px rgba(1,1,1,25%);
+            height: 800px;
+            margin:   70px 550px  ;
+             display: flex;
+     justify-content: center;
+     align-items: center
+     
+}
+.login {
+    display:flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}  
+.login h3.title {
+    margin: 15px 0;
+}
+.test{
+    padding: 15px;
+    margin: 2px;
+    border: white;
+    border-radius: 15px;
+    outline: none;
+}
+.tes{
+    padding: 15px;
+    margin: 2px;
+    border: white;
+    border-radius: 15px;
+    outline: none;
+}
+
+.mm{
+    color: white;
+    background-color: #4c9abe;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 500;
+    display: inline block;
+    padding: 0.4em 4em;
+    letter-spacing: normal;
+    border-radius: 15px;
+    margin-top: 5px;
+    transition: .7s;
+
+}
+.mm:hover:hover{
+    background-color: #1477c9 ;
+    transform: scale(1.1);
+}
+.mn{
+    color: white;
+    background-color:  #4c9abe;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 500;
+    display: inline block;
+    padding: 0.4em 4em;
+    letter-spacing: normal;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    transition: .7s;
+
+}
+.mn:hover{
+    background-color: #1477c9 ;
+    transform: scale(1.1);
+}
+.n{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 2.2em;
+    font-weight: 500;
+}
+h2{
+    color: white;
+    font-size: 2.2em;
+    font-weight: 500;
+}

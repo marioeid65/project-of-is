@@ -1,0 +1,50 @@
+body{
+    background-image: url(17.png);
+    background-size: cover;
+    border-radius: 50px;
+    box-shadow: 0 5px 25px rgba(1,1,1,25%); 
+    border-radius: 50px;
+    height: 850px;
+    margin:   65px 300px  ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.m{
+    padding: 17px 16px;
+    margin: 4px;
+    border: white;
+    outline: none;
+    border-radius: 15px;
+    margin-bottom: 3px;
+}
+.mn{
+    color: white;
+    background-color:  #121e8a;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 500;
+    display: inline block;
+    padding: 0.3em 1.8em;
+    letter-spacing: normal;
+    border-radius: 15px;
+    margin-top: 5px;;
+    margin-bottom: 5px;
+    transition: .7s;
+
+}
+.mn:hover{
+    background-color: #1477c9 ;
+    transform: scale(1.1);
+}
+h2{
+    font-size: 1.4em;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
